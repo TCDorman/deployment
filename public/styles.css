@@ -1,6 +1,10 @@
 #happyFatDolphin {
     height: 400px;
     width: 600px;
+    outline: auto;
+    outline-color: black;
+    outline-style: groove;
+
 }
 
 p {
@@ -12,7 +16,7 @@ p {
 
 }
 
-@keyframes changingHeader {
+@keyframes changingBackground {
     from{background-color: forestgreen;}
     to{background-color: yellowgreen;}
     to{background-color: powderblue;}
@@ -25,8 +29,12 @@ p {
 h1 {
     text-align: center;
     size: 40px;
+    color: black;
+}
+
+body * { 
     background-color: forestgreen;
-    animation-name: changingHeader;
-    animation-duration: 2s;
+    animation-name: changingBackground;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
