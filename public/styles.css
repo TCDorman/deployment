@@ -27,6 +27,6 @@ h1 {
     size: 40px;
     background-color: forestgreen;
     animation-name: changingHeader;
-    animation-duration: 1000s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
