@@ -1,0 +1,19 @@
+#happyDolphin {
+    height: 400px;
+    width: 600px;
+}
+
+p {
+    text-align: center;
+    size: 30px;
+    outline: auto;
+    outline-color: black;
+    outline-style: groove;
+
+}
+
+
+h1 {
+    text-align: center;
+    size: 40px;
+}
