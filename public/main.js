@@ -1,5 +1,3 @@
-const { BADHINTS } = require("dns")
-
 console.log('It deployed')
 
 const moreDolphins = document.getElementById('google')
