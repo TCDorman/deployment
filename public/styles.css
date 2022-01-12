@@ -1,4 +1,4 @@
-#happyDolphin {
+#happyFatDolphin {
     height: 400px;
     width: 600px;
 }
@@ -12,8 +12,21 @@ p {
 
 }
 
+@keyframes changingHeader {
+    from{background-color: forestgreen;}
+    to{background-color: yellowgreen;}
+    to{background-color: powderblue;}
+    to{background-color: darkkhaki;}
+    to{background-color: purple ;}
+    to {background-color: red;}
+
+}
 
 h1 {
     text-align: center;
     size: 40px;
+    background-color: forestgreen;
+    animation-name: changingHeader;
+    animation-duration: 1000s;
+    animation-iteration-count: infinite;
 }
