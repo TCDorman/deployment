@@ -39,13 +39,13 @@ body * {
     animation-iteration-count: infinite;
 }
 
-#google * {
+#google{
     color: blueviolet;
     height: 60px;
     width: 80px;
 }
 
-#popdolphins * {
+#popdolphins{
     color: yellow;
     height: 30px;
     width: 50px;
