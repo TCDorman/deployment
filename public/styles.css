@@ -38,3 +38,15 @@ body * {
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+
+#google * {
+    color: blueviolet;
+    height: 60px;
+    width: 80px;
+}
+
+#popdolphins * {
+    color: yellow;
+    height: 30px;
+    width: 50px;
+}
